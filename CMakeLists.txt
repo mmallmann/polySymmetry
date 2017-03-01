@@ -12,6 +12,7 @@ project(polySymmetry)
 
     if (WIN32)
     elseif(APPLE)
+   	    message( FATAL_ERROR "I don't feel like fixing this-- check the SCons files." )
     else()
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
     endif()
