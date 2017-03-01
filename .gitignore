@@ -1,0 +1,5 @@
+.git
+*.bundle
+*.os
+.scons*
+
